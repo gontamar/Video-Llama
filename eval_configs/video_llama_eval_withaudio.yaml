@@ -13,9 +13,9 @@ model:
   # some ckpts could be download from our provided huggingface repo
   # i.e.  https://huggingface.co/DAMO-NLP-SG/Video-LLaMA-2-13B-Finetuned
   llama_model: "DAMO-NLP-SG/Video-LLaMA-2-13B-Finetuned"
-  imagebind_ckpt_path: "imagebind_huge.pth"
+  imagebind_ckpt_path: "/kaggle/input/vllama/keras/default/1/imagebind_huge.pth"
   ckpt: 'DAMO-NLP-SG/Video-LLaMA-2-13B-Pretrained'   # you can use our pretrained ckpt from https://huggingface.co/DAMO-NLP-SG/Video-LLaMA-2-13B-Pretrained/
-  ckpt_2:  'finetune_vicuna7b_audiobranch.pth'
+  ckpt_2:  '/kaggle/input/vllama/keras/default/1/finetune_vicuna7b_audiobranch.pth'
 
   equip_audio_branch: True  # whether equips the audio branch
   fusion_head_layers: 2
